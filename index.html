@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michele Rocha | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Michele.dev</a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button id="themeToggle" class="theme-btn" aria-label="Alternar tema">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </button>
+                
+                <!-- Hamburger -->
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span class="highlight">Michele Rocha</span></h1>
+            <p class="subtitle">Desenvolvedora Front-end | Apaixonada por criar experiências web incríveis</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#sobre">↓ Role para descobrir</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá! Meu nome é Michele Rocha e sou uma desenvolvedora front-end em formação, com grande interesse em criar interfaces modernas, responsivas e acessíveis.</p>
+                    <p>Tenho experiência com <strong>HTML5, CSS3 e JavaScript</strong>, e estou sempre buscando aprender novas tecnologias e boas práticas de desenvolvimento web.</p>
+                    <p>Meu objetivo é transformar ideias em produtos digitais funcionais e visualmente atraentes, sempre priorizando a experiência do usuário.</p>
+                    
+                    <div class="skills">
+                        <h3>Habilidades</h3>
+                        <div class="skills-grid">
+                            <span class="tag-habilidade">HTML5</span>
+                            <span class="tag-habilidade">CSS3</span>
+                            <span class="tag-habilidade">JavaScript</span>
+                            <span class="tag-habilidade">Responsive Design</span>
+                            <span class="tag-habilidade">Git & GitHub</span>
+                            <span class="tag-habilidade">Acessibilidade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Formação & Cursos</h2>
+            
+            <div class="timeline">
+                <!-- Ensino Médio -->
+                <div class="item-timeline">
+                    <div class="data-timeline">Dez/2007</div>
+                    <div class="conteudo-timeline">
+                        <h3>Ensino Médio</h3>
+                        <p class="institution">Escola Estadual Prof. Oswaldo Januzzi</p>
+                        <p>Conclusão em 20/12/2007.</p>
+                    </div>
+                </div>
+
+                <!-- Superior -->
+                <div class="item-timeline">
+                    <div class="data-timeline">2025 - 2027</div>
+                    <div class="conteudo-timeline">
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="institution">Uninter</p>
+                        <p>Graduação em Análise e Desenvolvimento de Sistemas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <p class="section-subtitle">Colaboro com uma empresa especializada no desenvolvimento de aplicativos Android. Confira alguns dos apps publicados na Google Play Store:</p>
+            
+            <div class="grade-projetos">
+                <!-- App 1 - EvoluPet -->
+                <div class="caixa-projeto">
+                    <div class="imagem-projeto">
+                        <div class="placeholder-img">📱 EvoluPet</div>
+                    </div>
+                    <div class="info-projeto">
+                        <h3>EvoluPet</h3>
+                        <p>Aplicativo Android desenvolvido em colaboração com a equipe de desenvolvimento. Disponível na Google Play Store.</p>
+                        <div class="tags">
+                            <span>Android</span>
+                            <span>React Native</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://play.google.com/store/apps/details?id=br.com.gishopping.bvirtual&hl=pt_BR" target="_blank" class="botao-pequeno">Ver na Play Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- App 2 - WhereChat -->
+                <div class="caixa-projeto">
+                    <div class="imagem-projeto">
+                        <div class="placeholder-img">📱 WhereChat</div>
+                    </div>
+                    <div class="info-projeto">
+                        <h3>WhereChat</h3>
+                        <p>Aplicativo Android desenvolvido em colaboração com a equipe de desenvolvimento. Disponível na Google Play Store.</p>
+                        <div class="tags">
+                            <span>Android</span>
+                            <span>React Native</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://play.google.com/store/apps/details?id=tech.wherechat&hl=pt_BR" target="_blank" class="botao-pequeno">Ver na Play Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- App 3 - LinkAI -->
+                <div class="caixa-projeto">
+                    <div class="imagem-projeto">
+                        <div class="placeholder-img">📱 LinkAI</div>
+                    </div>
+                    <div class="info-projeto">
+                        <h3>LinkAI</h3>
+                        <p>Aplicativo Android desenvolvido em colaboração com a equipe de desenvolvimento. Disponível na Google Play Store.</p>
+                        <div class="tags">
+                            <span>Android</span>
+                            <span>React Native</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://play.google.com/store/apps/details?id=com.linkai&hl=pt_BR" target="_blank" class="botao-pequeno">Ver na Play Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="section-subtitle">Vamos conversar? Preencha o formulário abaixo.</p>
+            
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <small class="error" id="error-nome"></small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                        <small class="error" id="error-email"></small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                        <small class="error" id="error-assunto"></small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                        <small class="error" id="error-mensagem"></small>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Michele Rocha. Feito com HTML, CSS e JavaScript.</p>
+            <p>Disponível para oportunidades e colaborações.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
